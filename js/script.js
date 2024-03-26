@@ -5,7 +5,7 @@ if (isNaN(kmScelti)) {
     alert ("km non validi");
 }
 
-console.log(kmScelti, typeof kmScelti)
+console.log(kmScelti, typeof kmScelti);
 
 // RICHIESTA ETA'
 let etaPasseggero = parseInt(prompt("quanti anni hai?"));
@@ -19,7 +19,7 @@ console.log(etaPasseggero, typeof etaPasseggero);
 // MOLTIPLICAZIONE PREZZO
 let price = kmScelti * 0.21;
 
-console.log(price, typeof price)
+console.log(price, typeof price);
 
 let prezzoScontato = price;
 
